@@ -1525,11 +1525,12 @@ elif params:
                     with stylable_container(key="style", css_styles=css_style):
                         with stylable_container(key="center1",
                                                 css_styles='''{display: flex; justify-content: center;align-items: center;font-weight: bold;}'''):
-                            if st.button("Back"):
+                            if st.button("Kembali"):
                                 games_reset()
                                 st.rerun()
 
     elif params.get("select") == "extras":
         extra.extra_menu()
     elif params.get("select") == "about":
+
         about_us.abt_us()

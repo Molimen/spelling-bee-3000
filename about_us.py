@@ -79,6 +79,7 @@ def abt_us():
             }}
 
             .overlay {{
+            top: -20px;
             position: relative;
             z-index: 10;              /* above jp-matrix */
             color: white;

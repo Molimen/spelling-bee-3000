@@ -5,7 +5,7 @@ def get_base64(file_path):
         return base64.b64encode(f.read()).decode()
 img1 = get_base64("assets/bg106.jpg")
 
-abt_us_1 = '''A hobbyist who is trying to learn programming!<br>I'm contributing on backend stuff like how the game logic work, etc. also i'm good at C and Python.<br><br>My quote:<br>"I'm gonna find the truth."'''
+abt_us_1 = '''A hobbyist who is trying to learn programming!<br>I'm contributing on backend stuff like how the game logic work, etc. also i'm good at C and Python.<br><br>My quote:<br>"I'm gonna find the truth."<br><br><br>'''
 
 abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."'''
 
@@ -13,7 +13,7 @@ def abt_us():
     st.markdown(
         '''
         <style>
-        @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=BBH+Sans+Bogle&family=Momo+Trust+Display&display=swap');            
+        @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=BBH+Sans+Bogle&family=Momo+Trust+Display&display=swap');
         </style>
         ''', unsafe_allow_html=True)
     st.html(
@@ -24,7 +24,7 @@ def abt_us():
             </div>
             <div class="divider-container">
                 <div class="divider"></div>
-            </div>  
+            </div>
         </div>
 
         <div class="maincontainer">
@@ -36,15 +36,16 @@ def abt_us():
                     <div class="mobile-only"><div class="info-title1 momo-trust-display-regular">Pencet ke sini!</div></div>
                     <div class="matrix-wrapper">
                         <div class="jp-matrix">
-                        
-                        <span>ア</span><span>マ</span><span>テ</span><span>ラ</span><span>ス</span><span>社</span
-                        ><span>世</span><span>界</span><span>探</span><span>偵</span><span>機</span><span>構</span
-                        ><span>ア</span><span>マ</span><span>テ</span><span>ラ</span><span>ス</span><span>社</span
-                        ><span>世</span><span>界</span><span>探</span><span>偵</span><span>機</span><span>構</span
+                        <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
+                        ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
+                        <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
+                        ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
+                        <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
+                        ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
                         </div></div>
-                        <div class="blur-box"><div class="overlay arima-isi">plissssssssssfixthisthingthatwontwanttooverflowtobelowandidontknowwhatthingthattothat!!!!</div>
+                        <div class="blur-box"><div class="overlay arima-isi">{abt_us_1}</div>
                         </div>
-                        
+
                     </div>
                 </div>
             <div class="divider-container2">
@@ -67,7 +68,7 @@ def abt_us():
             top: 0;
             backdrop-filter: blur(2px);
             -webkit-backdrop-filter: blur(2px); /* for Safari */
-            background: rgba(255, 255, 255, 0.15); /* transparent enough to show blur */
+            background: rgba(0, 0, 0, 0.3); /* transparent enough to show blur */
             border-radius: .5rem;
             padding: 2rem;
             justify-content: center;
@@ -93,9 +94,9 @@ def abt_us():
             background-color: transparent;
             overflow: hidden;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-            grid-auto-rows: 40px;
-            font-size: 32px;
+            grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+            grid-auto-rows: 60px;
+            font-size: 42px;
             color: rgba(0, 150, 255, 0.4);
             font-family: "Courier New", Courier, monospace;
             justify-content: center;
@@ -169,23 +170,23 @@ def abt_us():
                 0 0 15px rgba(255, 105, 180, 1);
             }}
             70% {{
-                color: #ffffff;
+                color: #cf2b4a;
                 text-shadow:
-                0 0 10px #fff,
-                0 0 15px #fff,
-                0 0 20px #fff;
+                0 0 10px #cf2b4a,
+                0 0 15px #cf2b4a,
+                0 0 20px #cf2b4a;
             }}
             }}
 
             .grand-container {{
             display: flex;
             }}
-            
+
             .keterangan {{
             max-width: 80%;
             margin: 1.5em;
             }}
-            
+
             .imagecontainer1, .imagecontainer2 {{
             position: relative;
             }}
@@ -213,12 +214,12 @@ def abt_us():
             border: 5px solid #6674BD;
             border-radius: 1.25em 0em 2.65em 0em;
             }}
-            
+
             .info-content {{
             margin: 1.25em;
             font-size: 1em;
             }}
-            
+
             .info-title1::after {{
             content: "Info Tentang Molimen";
             }}
@@ -229,7 +230,7 @@ def abt_us():
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: row;    
+            flex-direction: row;
             background-color: #D38D2C;
             height: 105%;
             width: 0%;
@@ -242,13 +243,13 @@ def abt_us():
             overflow: hidden;
             white-space: nowrap;
             font-size: 1.38rem;
-            
+
             }}
             .expandable-info:hover .info-title1::after, .expandable-info:hover .info-title2::after {{
             width: 180%;
             transition: all .9s ease;
             }}
-            
+
             .expandable-info {{
             display: flex;
             flex-direction: column;
@@ -267,7 +268,7 @@ def abt_us():
             transition: all .35s ease-out;
             border: 0.2rem solid #996620;
             }}
-            
+
             .expandable-info .info-title1, .expandable-info .info-title2 {{
             padding: .18em;
             font-size: 1.42em;
@@ -275,7 +276,7 @@ def abt_us():
             transition: all .5s ease-out;
             position: relative;
             }}
-            
+
             .stApp {{
             background-color: #232324;
             background-position: center top;
@@ -283,7 +284,7 @@ def abt_us():
             background-size: cover;
             background-repeat: no-repeat;
             }}
-            
+
             .momo-trust-display-regular {{
             font-family: "Momo Trust Display", sans-serif;
             font-weight: 400;
@@ -302,7 +303,7 @@ def abt_us():
             font-style: normal;
             line-height: 1.75em;
             }}
-            
+
             .maincontainer, .maincontainer2 {{
             color: white;
             text-align: center;
@@ -311,7 +312,7 @@ def abt_us():
             justify-content: center;
             align-items: center;
             }}
-            
+
             .container-h1 {{
             display: flex;
             align-items: center;
@@ -322,7 +323,7 @@ def abt_us():
             position: relative;
             z-index: 1;
             }}
-            
+
             .container-h1::before, .container-h1::after {{
             content: "";
             width: 200px;
@@ -332,7 +333,7 @@ def abt_us():
             z-index: 12;
             filter: blur(.8em);
             }}
-            
+
             .container-h1::after {{
             content: "";
             opacity: 1;
@@ -343,7 +344,7 @@ def abt_us():
             opacity: 1;
             transform: translate(127%, 0);
             }}
-            
+
             h1 {{
             font-size: 5em;
             letter-spacing: 4px;
@@ -357,7 +358,7 @@ def abt_us():
             line-height: 1em;
             border: 4px solid lightblue;
             }}
-            
+
             .divider-container, .divider-container2 {{
             display: flex;
             align-items: center;
@@ -371,7 +372,7 @@ def abt_us():
             margin: 3em;
             margin-top: 1.25em;
             }}
-            
+
             .divider-container::before, .divider-container::after, .divider-container2::before, .divider-container2::after {{
             transition: all 1s ease;
             }}
@@ -420,11 +421,11 @@ def abt_us():
             background-image: linear-gradient(90deg, transparent, white,white, transparent);
             margin: 1.5em;
             }}
-            
+
             body {{
             user-select: none;
             }}
-            
+
         @keyframes divider-spin {{
             0% {{ transform: rotate(0deg); }}
             5.88% {{ transform: rotate(0deg); }}
@@ -464,7 +465,7 @@ def abt_us():
             94.08% {{ transform: scale(1); }}
             100% {{ transform: scale(1); }}
             }}
-            
+
             @media (max-width: 700px) {{
                 .info-content {{
                 font-size: 0.85em;

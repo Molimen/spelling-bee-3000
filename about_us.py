@@ -8,6 +8,7 @@ img1 = get_base64("assets/bg106.jpg")
 abt_us_1 = '''A hobbyist who is trying to learn programming!<br>I'm contributing on backend stuff like how the game logic work, etc. also i'm good at C and Python.<br><br>My quote:<br>"I'm gonna find the truth."'''
 
 abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."'''
+
 def abt_us():
     st.markdown(
         '''
@@ -25,7 +26,7 @@ def abt_us():
                 <div class="divider"></div>
             </div>  
         </div>
-        
+
         <div class="maincontainer">
                 <div class="imagecontainer1">
                     <img src="https://avatars.githubusercontent.com/u/95009791?v=4">
@@ -33,7 +34,18 @@ def abt_us():
                 <div class="expandable-info">
                     <div class="desktop-only"><div class="info-title1 momo-trust-display-regular">Hover mouse ke sini!</div></div>
                     <div class="mobile-only"><div class="info-title1 momo-trust-display-regular">Pencet ke sini!</div></div>
-                    <div class="info-content arima-isi">{abt_us_1}</div>
+                    <div class="matrix-wrapper">
+                        <div class="jp-matrix">
+                        
+                        <span>ア</span><span>マ</span><span>テ</span><span>ラ</span><span>ス</span><span>社</span
+                        ><span>世</span><span>界</span><span>探</span><span>偵</span><span>機</span><span>構</span
+                        ><span>ア</span><span>マ</span><span>テ</span><span>ラ</span><span>ス</span><span>社</span
+                        ><span>世</span><span>界</span><span>探</span><span>偵</span><span>機</span><span>構</span
+                        </div></div>
+                        <div class="blur-box"><div class="overlay arima-isi">plissssssssssfixthisthingthatwontwanttooverflowtobelowandidontknowwhatthingthattothat!!!!</div>
+                        </div>
+                        
+                    </div>
                 </div>
             <div class="divider-container2">
                 <div class="divider"></div>
@@ -49,6 +61,122 @@ def abt_us():
         </div>
 
        <style>
+            .blur-box {{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px); /* for Safari */
+            background: rgba(255, 255, 255, 0.15); /* transparent enough to show blur */
+            border-radius: .5rem;
+            padding: 2rem;
+            justify-content: center;
+            }}
+
+            .matrix-wrapper {{
+            position: relative;       /* creates a positioning context */
+            }}
+
+            .overlay {{
+            position: relative;
+            z-index: 10;              /* above jp-matrix */
+            color: white;
+            pointer-events: none;     /* optional: don't block mouse */
+            font-size: 1em;
+            }}
+
+            .jp-matrix {{
+            position: absolute;
+            inset: 0;                 /* fill wrapper */
+            z-index: 1;               /* behind overlay */
+            position: relative;
+            background-color: transparent;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            grid-auto-rows: 40px;
+            font-size: 32px;
+            color: rgba(0, 150, 255, 0.4);
+            font-family: "Courier New", Courier, monospace;
+            justify-content: center;
+            align-content: center;
+            }}
+
+            .jp-matrix > span {{
+            text-align: center;
+            text-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
+            user-select: none;
+            transition:
+                color 0.5s,
+                text-shadow 0.5s;
+            line-height: 1;
+            }}
+
+            .jp-matrix > span:nth-child(19n + 2) {{
+            animation: smooth-pulse 3.5s ease-in-out infinite 0.2s;
+            }}
+            .jp-matrix > span:nth-child(29n + 1) {{
+            animation: smooth-pulse 4.1s ease-in-out infinite 0.7s;
+            }}
+            .jp-matrix > span:nth-child(11n) {{
+            color: rgba(100, 200, 255, 0.7);
+            animation: smooth-pulse 2.9s ease-in-out infinite 1.1s;
+            }}
+            .jp-matrix > span:nth-child(37n + 10) {{
+            animation: smooth-pulse 5.3s ease-in-out infinite 1.5s;
+            }}
+            .jp-matrix > span:nth-child(41n + 1) {{
+            animation: smooth-pulse 3.9s ease-in-out infinite 0.4s;
+            }}
+            .jp-matrix > span:nth-child(17n + 9) {{
+            animation: smooth-pulse 2.8s ease-in-out infinite 0.9s;
+            }}
+            .jp-matrix > span:nth-child(23n + 18) {{
+            animation: smooth-pulse 4.3s ease-in-out infinite 1.3s;
+            }}
+            .jp-matrix > span:nth-child(31n + 4) {{
+            animation: smooth-pulse 5.6s ease-in-out infinite 0.1s;
+            }}
+            .jp-matrix > span:nth-child(43n + 20) {{
+            animation: smooth-pulse 3.6s ease-in-out infinite 1.8s;
+            }}
+            .jp-matrix > span:nth-child(13n + 6) {{
+            animation: smooth-pulse 3.2s ease-in-out infinite 1.2s;
+            }}
+            .jp-matrix > span:nth-child(53n + 5) {{
+            animation: smooth-pulse 4.9s ease-in-out infinite 0.5s;
+            }}
+            .jp-matrix > span:nth-child(47n + 15) {{
+            animation: smooth-pulse 5.9s ease-in-out infinite 1s;
+            }}
+
+            @keyframes smooth-pulse {{
+            0%,
+            100% {{
+                color: rgba(0, 150, 255, 0.4);
+                text-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
+            }}
+            30% {{
+                color: rgba(100, 200, 255, 1);
+                text-shadow:
+                0 0 10px rgba(100, 200, 255, 1),
+                0 0 15px rgba(100, 200, 255, 1);
+            }}
+            50% {{
+                color: rgba(255, 105, 180, 1);
+                text-shadow:
+                0 0 10px rgba(255, 105, 180, 1),
+                0 0 15px rgba(255, 105, 180, 1);
+            }}
+            70% {{
+                color: #ffffff;
+                text-shadow:
+                0 0 10px #fff,
+                0 0 15px #fff,
+                0 0 20px #fff;
+            }}
+            }}
+
             .grand-container {{
             display: flex;
             }}

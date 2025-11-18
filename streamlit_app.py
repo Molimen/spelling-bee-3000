@@ -246,7 +246,7 @@ if "correct" not in st.session_state:
 
 st.set_page_config(page_title="Spelling Bee", page_icon="assets/icon.png")
 
-st.markdown("""<style>div[data-testid="stStatusWidget"] div button {    display: none !important;}</style>""", unsafe_allow_html=True)
+#st.markdown("""<style>div[data-testid="stStatusWidget"] div button {    display: none !important;}</style>""", unsafe_allow_html=True)
 
 spelling_bee_words = {
     # 🍎 EASY — kata dasar, sehari-hari (±90 kata)
@@ -376,7 +376,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -394,7 +394,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -412,7 +412,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -430,7 +430,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{

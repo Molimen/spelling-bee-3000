@@ -376,7 +376,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -394,7 +394,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -412,7 +412,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{
@@ -430,7 +430,7 @@ button {{
     background-size: 40px;
     background-position: center;
     background-color: #66a0bd;
-    border: 0.2rem solid #003dbf;
+    border: 0.2rem solid #24ADF2;
     transition: 0.3s;
 }}
 button:hover {{

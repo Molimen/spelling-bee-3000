@@ -7,7 +7,7 @@ img1 = get_base64("assets/bg106.jpg")
 
 abt_us_1 = '''A hobbyist who is trying to learn programming!<br>I'm contributing on backend stuff like how the game logic work, etc. also i'm good at C and Python.<br><br>My quote:<br>"I'm gonna find the truth."<br><br><br>'''
 
-abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."'''
+abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."<br><br><br>'''
 
 def abt_us():
     st.markdown(
@@ -16,6 +16,320 @@ def abt_us():
         @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=BBH+Sans+Bogle&family=Momo+Trust+Display&display=swap');
         </style>
         ''', unsafe_allow_html=True)
+
+    st.html("""
+        <style>
+  /* From Uiverse.io by whoisyourdeadie */ 
+  .matrix-container {
+    position: relative;     /* stays on screen */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;    /* NO scrolling allowed */
+  }
+
+
+  .matrix-pattern {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    flex-shrink: 0;
+  }
+
+  .matrix-column {
+    position: absolute;
+    top: -100%;
+    width: 20px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    animation: fall linear infinite;
+    white-space: nowrap;
+  }
+
+  .matrix-column::before {
+    content: "I'm going to fight, so I can keep my promise!";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 5%,
+      #00ff41 10%,
+      #00ff41 20%,
+      #00dd33 30%,
+      #00bb22 40%,
+      #009911 50%,
+      #007700 60%,
+      #005500 70%,
+      #003300 80%,
+      rgba(0, 255, 65, 0.5) 90%,
+      transparent 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    writing-mode: vertical-lr;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .matrix-column:nth-child(1) {
+    left: 0px;
+    animation-delay: -2.5s;
+    animation-duration: 3s;
+  }
+  .matrix-column:nth-child(2) {
+    left: 25px;
+    animation-delay: -3.2s;
+    animation-duration: 4s;
+  }
+  .matrix-column:nth-child(3) {
+    left: 50px;
+    animation-delay: -1.8s;
+    animation-duration: 2.5s;
+  }
+  .matrix-column:nth-child(4) {
+    left: 75px;
+    animation-delay: -2.9s;
+    animation-duration: 3.5s;
+  }
+  .matrix-column:nth-child(5) {
+    left: 100px;
+    animation-delay: -1.5s;
+    animation-duration: 3s;
+  }
+  .matrix-column:nth-child(6) {
+    left: 125px;
+    animation-delay: -3.8s;
+    animation-duration: 4.5s;
+  }
+  .matrix-column:nth-child(7) {
+    left: 150px;
+    animation-delay: -2.1s;
+    animation-duration: 2.8s;
+  }
+  .matrix-column:nth-child(8) {
+    left: 175px;
+    animation-delay: -2.7s;
+    animation-duration: 3.2s;
+  }
+  .matrix-column:nth-child(9) {
+    left: 200px;
+    animation-delay: -3.4s;
+    animation-duration: 3.8s;
+  }
+  .matrix-column:nth-child(10) {
+    left: 225px;
+    animation-delay: -1.9s;
+    animation-duration: 2.7s;
+  }
+  .matrix-column:nth-child(11) {
+    left: 250px;
+    animation-delay: -3.6s;
+    animation-duration: 4.2s;
+  }
+  .matrix-column:nth-child(12) {
+    left: 275px;
+    animation-delay: -2.3s;
+    animation-duration: 3.1s;
+  }
+  .matrix-column:nth-child(13) {
+    left: 300px;
+    animation-delay: -3.1s;
+    animation-duration: 3.6s;
+  }
+  .matrix-column:nth-child(14) {
+    left: 325px;
+    animation-delay: -2.6s;
+    animation-duration: 2.9s;
+  }
+  .matrix-column:nth-child(15) {
+    left: 350px;
+    animation-delay: -3.7s;
+    animation-duration: 4.1s;
+  }
+  .matrix-column:nth-child(16) {
+    left: 375px;
+    animation-delay: -2.8s;
+    animation-duration: 3.3s;
+  }
+  .matrix-column:nth-child(17) {
+    left: 400px;
+    animation-delay: -3.3s;
+    animation-duration: 3.7s;
+  }
+  .matrix-column:nth-child(18) {
+    left: 425px;
+    animation-delay: -2.2s;
+    animation-duration: 2.6s;
+  }
+  .matrix-column:nth-child(19) {
+    left: 450px;
+    animation-delay: -3.9s;
+    animation-duration: 4.3s;
+  }
+  .matrix-column:nth-child(20) {
+    left: 475px;
+    animation-delay: -2.4s;
+    animation-duration: 3.4s;
+  }
+  .matrix-column:nth-child(21) {
+    left: 500px;
+    animation-delay: -1.7s;
+    animation-duration: 2.4s;
+  }
+  .matrix-column:nth-child(22) {
+    left: 525px;
+    animation-delay: -3.5s;
+    animation-duration: 3.9s;
+  }
+  .matrix-column:nth-child(23) {
+    left: 550px;
+    animation-delay: -2s;
+    animation-duration: 3s;
+  }
+  .matrix-column:nth-child(24) {
+    left: 575px;
+    animation-delay: -4s;
+    animation-duration: 4.4s;
+  }
+  .matrix-column:nth-child(25) {
+    left: 600px;
+    animation-delay: -1.6s;
+    animation-duration: 2.3s;
+  }
+  .matrix-column:nth-child(26) {
+    left: 625px;
+    animation-delay: -3s;
+    animation-duration: 3.5s;
+  }
+  .matrix-column:nth-child(27) {
+    left: 650px;
+    animation-delay: -3.8s;
+    animation-duration: 4s;
+  }
+  .matrix-column:nth-child(28) {
+    left: 675px;
+    animation-delay: -2.5s;
+    animation-duration: 2.8s;
+  }
+  .matrix-column:nth-child(29) {
+    left: 700px;
+    animation-delay: -3.2s;
+    animation-duration: 3.6s;
+  }
+  .matrix-column:nth-child(30) {
+    left: 725px;
+    animation-delay: -2.7s;
+    animation-duration: 3.2s;
+  }
+  .matrix-column:nth-child(31) {
+    left: 750px;
+    animation-delay: -1.8s;
+    animation-duration: 2.7s;
+  }
+  .matrix-column:nth-child(32) {
+    left: 775px;
+    animation-delay: -3.6s;
+    animation-duration: 4.1s;
+  }
+  .matrix-column:nth-child(33) {
+    left: 800px;
+    animation-delay: -2.1s;
+    animation-duration: 3.1s;
+  }
+  .matrix-column:nth-child(34) {
+    left: 825px;
+    animation-delay: -3.4s;
+    animation-duration: 3.7s;
+  }
+  .matrix-column:nth-child(35) {
+    left: 850px;
+    animation-delay: -2.8s;
+    animation-duration: 2.9s;
+  }
+  .matrix-column:nth-child(36) {
+    left: 875px;
+    animation-delay: -3.7s;
+    animation-duration: 4.2s;
+  }
+  .matrix-column:nth-child(37) {
+    left: 900px;
+    animation-delay: -2.3s;
+    animation-duration: 3.3s;
+  }
+  .matrix-column:nth-child(38) {
+    left: 925px;
+    animation-delay: -1.9s;
+    animation-duration: 2.5s;
+  }
+  .matrix-column:nth-child(39) {
+    left: 950px;
+    animation-delay: -3.5s;
+    animation-duration: 3.8s;
+  }
+  .matrix-column:nth-child(40) {
+    left: 975px;
+    animation-delay: -2.6s;
+    animation-duration: 3.4s;
+  }
+
+  .matrix-column:nth-child(odd)::before {
+    content: "Every human has regrets, has things they'd like to go back and change. But I don't! 'cause I'm a bear.";
+  }
+
+  .matrix-column:nth-child(even)::before {
+    content: "I'm so glad everyone is so thoughtful toward their friends...! Hehehe, we're all equals when we're sick. Let's all work together and do our very best.";
+  }
+
+  .matrix-column:nth-child(3n)::before {
+    content: "If you want to believe in someone...you need to overcome doubt first. Belief without doubt...is simply a lie.";
+  }
+
+  .matrix-column:nth-child(4n)::before {
+    content: "I never erase a photo once I take it. That's my policy. No matter what kind of photo it is, the moment captured in it only exists at that time.";
+  }
+
+  .matrix-column:nth-child(5n)::before {
+    content: "Over the years, my show has given many smiles to people with broken hearts... Now is the time to demonstrate my powers. My magic is the only thing that can heal your twisted hearts.";
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-10%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .matrix-column {
+      font-size: 14px;
+      line-height: 16px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .matrix-column {
+      font-size: 12px;
+      line-height: 14px;
+      width: 15px;
+    }
+  }
+
+        </style>""")
+
     st.html(
         f"""
         <div class="maincontainer bbh-sans-bogle-regular">
@@ -38,14 +352,13 @@ def abt_us():
                         <div class="jp-matrix">
                         <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
                         ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
-                        <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
+                        ><span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
                         ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
-                        <span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
+                        ><span>最</span><span>終</span><span>防</span><span>衛</span><span>学</span><span>園</span><span>-</span
                         ><span>ハ</span><span>ン</span><span>ド</span><span>レ</span><span>ッ</span><span>ド</span><span>ラ</span><span>イ</span><span>ン</span
                         </div></div>
                         <div class="blur-box"><div class="overlay arima-isi">{abt_us_1}</div>
                         </div>
-
                     </div>
                 </div>
             <div class="divider-container2">
@@ -57,14 +370,43 @@ def abt_us():
                 <div class="expandable-info">
                     <div class="desktop-only"><div class="info-title2 momo-trust-display-regular">Hover mouse ke sini!</div></div>
                     <div class="mobile-only"><div class="info-title2 momo-trust-display-regular">Pencet ke sini!</div></div>
-                    <div class="info-content arima-isi">{abt_us_2}</div>
+                    <div class="matrix-wrapper">
+                      <div class="matrix-container">
+                        <div class="matrix-pattern">
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                          <div class="matrix-column"></div>
+                        </div>
+                      </div>
+                      <div class="blur-box"><div class="overlay arima-isi">{abt_us_2}</div>
+                    </div>
                 </div>
         </div>
 
        <style>
             .blur-box {{
             position: absolute;
-            z-index: 1;
+            z-index: 2;
             top: 0;
             backdrop-filter: blur(2px);
             -webkit-backdrop-filter: blur(2px); /* for Safari */

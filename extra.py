@@ -880,9 +880,9 @@ box-shadow:
                 <div class="tracker tr-25"></div>
                 <div id="card" class="card_img1">
                 <div class="card-content">
-                    <div id="prompt"><div class="desktop-only">HOVER ME!</div><div class="mobile-only">PRESS ME!</div></div>
+                    <div id="prompt"><div class="bbh-sans-bogle-regular desktop-only">HOVER ME!</div><div class="bbh-sans-bogle-regular mobile-only">PRESS ME!</div></div>
                     <div class="title_card">
-                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 0.7);; font-size: 20px;">
+                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 1);; font-size: 20px;">
                         Tempat Duduk Generator
                         </div>
                     </div>
@@ -937,7 +937,7 @@ box-shadow:
                 <div class="card-content">
                     <div id="prompt"><div class="bbh-sans-bogle-regular desktop-only">HOVER ME!</div><div class="bbh-sans-bogle-regular mobile-only">PRESS ME!</div></div>
                     <div class="title_card">
-                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 0.7);; font-size: 20px;">
+                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 1);; font-size: 20px;">
                         Kelompok Generator
                         </div>
                     </div>
@@ -957,4 +957,5 @@ box-shadow:
         </div>
         
     """)
+
 

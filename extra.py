@@ -53,7 +53,7 @@ box-shadow:
 }
 
 #prompt {
-  bottom: 30%;
+  bottom: 40%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
@@ -831,6 +831,15 @@ box-shadow:
                 94.08% {{ transform: scale(1); }}
                 100% {{ transform: scale(1); }}
                 }}
+
+            @media (max-width: 768px) {{
+                .mobile-only {{display: block;}}
+                .desktop-only {{display: none;}}
+            }}
+            @media (min-width: 769px) {{
+                .mobile-only {{display: none;}}
+                .desktop-only {{display: block;}}
+            }}
         </style>
         
         <div class="container-h1 bbh-sans-bogle-regular">
@@ -871,7 +880,7 @@ box-shadow:
                 <div class="tracker tr-25"></div>
                 <div id="card" class="card_img1">
                 <div class="card-content">
-                    <p id="prompt">HOVER ME</p>
+                    <div id="prompt"><div class="desktop-only">HOVER ME!</div><div class="mobile-only">PRESS ME!</div></div>
                     <div class="title_card">
                         <div style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.6);; background-color: rgba(102, 160, 189, 0.7);; font-size: 20px;">
                         Tempat Duduk Generator
@@ -926,7 +935,7 @@ box-shadow:
                 <div class="tracker tr-25"></div>
                 <div id="card"  class="card_img2">
                 <div class="card-content">
-                    <p id="prompt">HOVER ME</p>
+                    <div id="prompt"><div class="desktop-only">HOVER ME!</div><div class="mobile-only">PRESS ME!</div></div>
                     <div class="title_card">
                         <div style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.6);; background-color: rgba(102, 160, 189, 0.7);; font-size: 20px;">
                         Kelompok Generator

@@ -304,7 +304,8 @@ def abt_us():
 animation-play-state: paused;
 }
 .expandable-info:hover .matrix-wrapper .matrix-container .matrix-pattern .matrix-column, .expandable-info:hover .matrix-wrapper .jp-matrix span {
-animation-delay: .45s
+animation-delay: .35s;
+transition: animation-delay .15s ease;
 }
 
   @keyframes fall {

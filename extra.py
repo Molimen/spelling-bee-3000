@@ -64,7 +64,7 @@ box-shadow:
   position: absolute;
   text-align: center;
   color: rgb(255, 255, 255);
-  border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.3); background-color: rgba(102, 160, 189, 1); font-size: 20px;padding:3px;
+  border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.3); background-color: rgba(102, 160, 189, 1); font-size: 20px;padding:1px;
 }
 
 .title_card {
@@ -957,6 +957,7 @@ box-shadow:
         </div>
         
     """)
+
 
 
 

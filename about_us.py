@@ -300,11 +300,11 @@ def abt_us():
     content: "Over the years, my show has given many smiles to people with broken hearts... Now is the time to demonstrate my powers. My magic is the only thing that can heal your twisted hearts.";
   }
 
-.expandable-info:not(:hover) .matrix-wrapper .matrix-container .matrix-pattern .matrix-column {
+.expandable-info:not(:hover) .matrix-wrapper .matrix-container .matrix-pattern .matrix-column, .expandable-info:not(:hover) .matrix-wrapper .jp-matrix span {
 animation-play-state: paused;
 }
-.expandable-info:not(:hover) .matrix-wrapper .jp-matrix span {
-animation-play-state: paused;
+.expandable-info:hover .matrix-wrapper .matrix-container .matrix-pattern .matrix-column, .expandable-info:hover .matrix-wrapper .jp-matrix span {
+animation-delay: .45s
 }
 
   @keyframes fall {

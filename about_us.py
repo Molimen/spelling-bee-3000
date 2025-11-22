@@ -609,7 +609,7 @@ animation-play-state: paused;
             max-width: 90%;
             margin-bottom: 2em;
             border-radius: .5rem;
-            transition: all .35s ease;
+            transition: all 5s ease;
             border: 0.2rem solid #24ADF2;
             overflow: hidden;
             }}

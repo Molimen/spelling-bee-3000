@@ -302,9 +302,10 @@ def abt_us():
 
 .expandable-info:not(:hover) .matrix-wrapper .matrix-container .matrix-pattern .matrix-column, .expandable-info:not(:hover) .matrix-wrapper .jp-matrix span {
 animation-play-state: paused;
+transition: all .15s ease;
 }
 .expandable-info:hover .matrix-wrapper .matrix-container .matrix-pattern .matrix-column, .expandable-info:hover .matrix-wrapper .jp-matrix span {
-animation-delay: .35s;
+animation-delay: .5s;
 transition: animation-delay .15s ease;
 }
 

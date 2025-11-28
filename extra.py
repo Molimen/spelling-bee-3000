@@ -39,7 +39,7 @@ justify-content: center;
 align-items: center;
 border-radius: 20px;
 transition: 700ms;
-border: 2px solid rgba(0, 0, 0, 0.438);
+border: 3px solid rgba(0, 0, 0, 1);
 overflow: hidden;
 box-shadow:
     0 0 20px rgba(0, 0, 0, 0.3),
@@ -64,7 +64,7 @@ box-shadow:
   position: absolute;
   text-align: center;
   color: rgb(255, 255, 255);
-  border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.3); background-color: rgba(102, 160, 189, 1); font-size: 20px;padding:1px;
+  border-radius: 10px; border: 3px solid rgba(36, 173, 242, 0.3); background-color: rgba(102, 160, 189, 0.67); font-size: 20px;padding:1px;
 }
 
 .title_card {
@@ -881,11 +881,6 @@ box-shadow:
                 <div id="card" class="card_img1">
                 <div class="card-content">
                     <div id="prompt"><div class="bbh-sans-bogle-regular desktop-only">HOVER ME!</div><div class="bbh-sans-bogle-regular mobile-only">PRESS ME!</div></div>
-                    <div class="title_card">
-                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 1);; font-size: 20px;">
-                        Tempat Duduk Generator
-                        </div>
-                    </div>
                 </div>
                 </div>
             </div>
@@ -936,11 +931,6 @@ box-shadow:
                 <div id="card"  class="card_img2">
                 <div class="card-content">
                     <div id="prompt"><div class="bbh-sans-bogle-regular desktop-only">HOVER ME!</div><div class="bbh-sans-bogle-regular mobile-only">PRESS ME!</div></div>
-                    <div class="title_card">
-                        <div class="rowdies-regular" style="border-radius: 10px; border: 3px solid rgba(36, 173, 242, 1);; background-color: rgba(102, 160, 189, 1);; font-size: 20px;">
-                        Kelompok Generator
-                        </div>
-                    </div>
                 </div>
                 </div>
             </div>

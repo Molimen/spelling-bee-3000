@@ -7,7 +7,7 @@ img1 = get_base64("assets/bg106.jpg")
 
 abt_us_1 = '''A hobbyist who is trying to learn programming!<br>I'm contributing on backend stuff like how the game logic work, etc. also i'm good at C and Python.<br><br>My quote:<br>"I'm gonna find the truth."<br><br><br>'''
 
-abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."<br><br><br>'''
+abt_us_2 = '''Gw ceplox21, alias murid yang namanya cuma sekata itu. Kontribusiku di sini ngerjain bagian <b>Frontend</b> karena aku sendiri dah lumayan paham dan ada pengalaman HTML sama CSS. Kalian bisa memangil saya dengan kata <b>Absolute Frontend</b>.<br><br>--- Quote kecil ---<br>"Don't be afraid of a rejection, because it's a path to success."<br><br><br>'''
 
 def abt_us():
     st.markdown(

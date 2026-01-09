@@ -352,7 +352,9 @@ transition: animation-delay .15s ease;
 
         <div class="maincontainer">
                 <div class="imagecontainer1">
-                    <img src="https://yt3.ggpht.com/aWbRMfRGZiqRaH3JNreM90wW2Y9vgkLfJVsAyPh7dIm8spHFkvzqKD4G0mPZczr5XriOBbV1gSkJ0w=s640-c-fcrop64=1,0bca0000f435ffff-nd-v1-rwa">
+                    <a href="https://kelompok.streamlit.app/">
+                      <img src="https://yt3.ggpht.com/aWbRMfRGZiqRaH3JNreM90wW2Y9vgkLfJVsAyPh7dIm8spHFkvzqKD4G0mPZczr5XriOBbV1gSkJ0w=s640-c-fcrop64=1,0bca0000f435ffff-nd-v1-rwa">
+                    </a>
                 </div>
                 <div class="expandable-info">
                     <div class="desktop-only"><div class="info-title1 momo-trust-display-regular">Hover mouse ke sini!</div></div>
@@ -374,7 +376,9 @@ transition: animation-delay .15s ease;
                 <div class="divider"></div>
             </div>
                 <div class="imagecontainer2">
-                    <img src="https://avatars.githubusercontent.com/u/230108871?v=4">
+                    <a href="https://layout-tempat-duduk-generator.streamlit.app/">
+                      <img src="https://avatars.githubusercontent.com/u/230108871?v=4">
+                    </a>
                 </div>
                 <div class="expandable-info">
                     <div class="desktop-only"><div class="info-title2 momo-trust-display-regular">Hover mouse ke sini!</div></div>
